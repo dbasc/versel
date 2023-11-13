@@ -2561,3 +2561,8 @@ select {
         --tw-text-opacity: 100%
     }
 }
+
+
+.movearrow:hover{
+    opacity: 60%;
+}
