@@ -2560,9 +2560,25 @@ select {
     .sm\:text-opacity-\[100\%\] {
         --tw-text-opacity: 100%
     }
+    .footerspace{
+        padding-top: 50%;
+        padding-bottom: 60px;
+    }
 }
 
 
 .movearrow:hover{
     opacity: 60%;
+}
+
+.bgcolor{
+    background-color: black;
+}
+
+.textblack{
+    color: #ffffff;
+}
+
+.footerspace{
+    padding-bottom: 60px;
 }
