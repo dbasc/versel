@@ -2599,3 +2599,28 @@ select {
 .topindex{
     z-index: 90;
 }
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  #loader {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+    /* Add additional styles for the logo/image if required */
+  }
+  
+  #content {
+    display: none;
+    /* Additional styles for your content */
+  }
